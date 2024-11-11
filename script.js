@@ -1,8 +1,12 @@
 import { AppReducer, createStore} from "./store.js"
 //TallyApp store is created
 const store = createStore(AppReducer);
+
 console.log(store.getState())
 
+store.subscribe(()=>{ 
+    console.log('state change occurred', store.getState());
+})
 // function that dispatches a series of actions on the store and logs the resulting state
 function currentState(actions = []) {
     actions.forEach(action => {

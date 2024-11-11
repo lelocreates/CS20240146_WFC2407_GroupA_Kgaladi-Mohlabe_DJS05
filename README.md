@@ -1,5 +1,65 @@
 # DJS05 Project Brief: Building a Redux-Inspired Store for a Tally App
 
+
+
+
+
+
+## How to view the project
+Option 1 
+1. Download the zip of the repository 
+2. Extract the zip file 
+3. open the index.html file with your browser 
+4. right click the page 
+5. Select inspect
+
+Option 2 
+1. Clone the repository 
+2. open the folder with VScode 
+3. right click the index.html folder
+4. Click on live server 
+4. right click the page 
+5. Select inspect
+
+
+## challenges 
+
+1. Struggled with understanding this conceptually. I know what the store code looks like but i am struggling to understand this in practice. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# DJS05 Project Brief: Building a Redux-Inspired Store for a Tally App
+
 In this challenge, you will venture into the realm of state management by constructing a Redux-inspired store to manage the state of a simple Tally App. Your primary goal is to manage the app's state changes efficiently, focusing on core functionalities like incrementing, decrementing, and resetting a counter. Instead of rendering changes on the UI, you'll subscribe to state updates and log them to the console, highlighting the power of state management in applications.
 
 ## Objective
